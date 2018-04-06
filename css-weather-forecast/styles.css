@@ -1,0 +1,141 @@
+/*---------------------Общие стили---------------------*/
+* {
+    transition: all .1s ease-in;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3399CC;
+    border: 17px solid #2B81AC;
+    min-height: 100vh;
+    min-width: 620px;
+    box-sizing: border-box;
+}
+
+/*----------------------Шапка------------------------*/
+
+header {
+    width: 67%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+h1 {
+    font-size: 21px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*-----------------------Контент---------------------*/
+
+ul {
+    font-size: 0; /*убран пробел между элементами списка*/
+    text-align: center;
+    background: white; /* белый фон для белых границ*/
+    width: 67%;
+    height: 435px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+li {
+    font-size: 18px; /*возвращаем видимость шрифта в li-шках*/
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid white;
+    height: 25%;  /* каждая строка занимает 25% высоты списка*/
+    width: 25%; /*ширина для всех элементов, если больше переопределяем*/
+}
+
+ul:hover li {
+    opacity: 0.7;
+}
+
+ul li:hover {
+    opacity: 1.0;
+}
+
+.city, .opacity-text {
+    display: block;
+}
+
+.city {
+    padding-top: 20px;
+}
+
+.opacity-text {
+    opacity: .7;
+}
+
+.wi {
+    font-size: 25px;
+    padding-left: 10px;
+    display: block;
+    vertical-align: middle;
+}
+
+/*-------города----------*/
+
+#lisbon {
+    background-color: #3399CC;
+}
+
+#paris {
+    background-color: #33CCCC;
+}
+
+#belgrad {
+    background-color: #996699;
+}
+
+#moscow {
+    background-color: #C24747;
+}
+
+#tel-aviv {
+    background-color: #E2674A;
+}
+
+#cair {
+    background-color: #FFCC66;
+}
+
+#new-york {
+    background-color: #99CC99;
+}
+
+#new-delhi {
+    background-color: #669999;
+}
+
+#san-fransisco {
+    background-color: #CC6699;
+}
+
+#tokyo {
+    background-color: #339966;
+}
+
+#sydney {
+    background-color: #666699;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+/*-----------------------Подвал-----------------------*/
+
+#reminder {
+    padding-top: 20px;
+    font-size: 14px;
+    width: 67%;
+    margin: 0 auto;
+}
