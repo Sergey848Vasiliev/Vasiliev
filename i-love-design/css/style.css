@@ -1,0 +1,132 @@
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+/*-------------------мои стили------------------*/
+
+header {
+	width: 100%;
+	height: 850px;
+	background-color: #23232D;
+	color: #fff;
+	text-align: center;
+}
+#logo {
+    height: 130px;
+	margin-top: 80px;
+}
+h1 {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 65px;
+}
+#i-love-design {
+    margin-top: 165px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#im-glad {
+    width: 450px;
+	margin: 30px auto 0;
+	/*font-family: ;*/
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+#down-button {
+	margin-top: 190px;
+	height: 45px;
+	border: none;
+	background: transparent;
+}
+main {
+	width: 930px;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+.about {
+	/*font-family: ;*/
+	font-size: 30px;
+	color: #464B4F;
+	text-align: center;
+	line-height: 40px;
+}
+#what-i-do {
+	margin: 100px 0 60px;
+	font-size: 80px;
+	font-weight: bold;
+	color: #464B4F;
+}
+section {
+	width: 30%;
+	margin: 0 1.5%;
+    padding-bottom: 30px;
+    float: left;
+}
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #464B4F;
+}
+section > p {
+    font-size: 17px;
+    line-height: 31px;
+    color: #888A8B;
+}
+main:after, main:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+footer {
+    text-align: center;
+    padding-bottom: 40px;
+}
