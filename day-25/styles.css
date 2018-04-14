@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700|Playfair+Display');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	width: 1490px;
+	/*min-height: 100vh;*/
+	margin: 50px auto;
+	box-sizing: border-box;
+	border: 1px solid #F3F3F3;
+	box-shadow: 0 0 80px #F3F3F3;
+	/*border-radius: 60px;*/
+}
+
+article {
+	padding: 140px 120px 100px;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+p {
+	margin: 10px 0 20px;
+	line-height: 32px;
+	font-size: 18px;
+	color: #919191;
+}
+
+#first-letter {
+	font-family: 'Playfair Display', serif;
+	display: block;
+	width: 100px;
+	margin: 30px 0;
+	float: left;
+	font-size: 110px;
+	color: black;
+}
+
+div {
+	width: 260px;
+	height: 70px;
+	margin-top: 40px;
+	box-sizing: border-box;
+	border: 2px solid #EAA257;
+}
+
+a {
+	display: block;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #EAA257;
+	line-height: 66px;
+}
+
+#different {
+	font-style: italic;
+	font-size: 25px;
+}
+
+#quot{
+	display: block;
+	margin-top: 30px;
+	font-size: 70px;
+}
+
+#after-climb {
+	padding-left: 50px;
+}
+
+#discover {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	display: block;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+
+
+/*todo
+2.Градиенты на бордеры body
+*/
