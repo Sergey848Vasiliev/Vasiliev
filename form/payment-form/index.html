@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>payment-form page</title>
+    <link rel="icon" href="img/payment-favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main-styles.css">
+</head>
+<body>
+<div id="wrap-form">
+    <section id="payment-form">
+        <header>
+            <div id="wrap-item-coast">
+                <div id="item-name">Harold Finch</div>
+                <div id="total-coast">Your Total</div>
+            </div>
+            <span id="money">$88</span>
+        </header>
+        <form action="/" method="post">
+            <label for="cr-card-num">Credit card number
+                <input type="number" id="cr-card-num" value="4321">
+            </label>
+            <label for="date">Expiration date
+                <div id="wrap-select">
+                    <select type="month" id="date">
+                        <option value="">Month</option>
+                        <option value="">Январь</option>
+                        <option value="">Февраль</option>
+                        <option value="">Март</option>
+                        <option value="">Апрель</option>
+                        <option value="">Май</option>
+                        <option value="">Июнь</option>
+                        <option value="">Июль</option>
+                        <option value="">Август</option>
+                        <option value="">Сентябрь</option>
+                        <option value="">Октябрь</option>
+                        <option value="">Ноябрь</option>
+                        <option value="">Декабрь</option>
+                    </select>
+                    <select type="year" id="year">
+                        <option value="">Year</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                        <option value="">2015</option>
+                        <option value="">2014</option>
+                        <option value="">2013</option>
+                    </select>
+                </div>
+            </label>
+            <label for="cvv">CVV
+                <br>
+                <input type="text" id="cvv" maxlength="4" minlength="3">
+            </label>
+            <span>3 or 4 digits - <a href="img/cvv-number.jpg" target="_blank">view example</a></span>
+            <input type="submit" value="Pay">
+            <span id="cancel-order"><a href="#">Cancel order</a></span>
+        </form>
+        <footer>
+        </footer>
+    </section>
+</div>
+</body>
+</html>

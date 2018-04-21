@@ -1,0 +1,118 @@
+/*--------------общие стили-----*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #777;
+}
+#wrap-form {
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	background: url("../img/background.jpg");
+}
+#wrap-form:hover {
+	box-shadow: 0 0 75px #fff;
+}
+#payment-form {
+	position: absolute;
+	width: 338px;
+	height: 535px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #F5F5F5;
+	box-sizing: border-box;
+}
+/*------------header------*/
+#payment-form header {
+	width: 100%;
+	height: 75px;
+	padding: 15px 25px;
+	background: #EFE5AA;
+	box-sizing: border-box;
+}
+#wrap-item-coast {
+	display: inline-block;
+}
+#item-name {
+	font-size: 14px;
+	font-weight: bold;
+	color: #6E7F7B;
+	margin-top: 7px;
+}
+#total-coast {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #A6A28D;
+}
+#money {
+	float: right;
+	font-size: 36px;
+	color: #637570;
+}
+/*--------------form------*/
+form {
+	padding: 40px 25px 25px;
+}
+label, span, a {
+	font-size: 13px;
+	color: #9EABAD;
+}
+input, select {
+	height: 42px;
+	color: #727F82;
+	font-weight: bold;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type="number"] {
+	width: 100%;
+	margin-bottom: 35px;
+}
+select[type="month"] {
+	width: 175px;
+	margin-bottom: 35px;
+}
+select[type="year"] {
+	width: 95px;
+	float: right;
+}
+input[type="text"] {
+	width: 95px;
+	margin-bottom: 35px;
+}
+input[type="submit"] {
+	width: 100%;
+	margin: 30px 0 20px;
+	background: #25B167;
+	font-weight: bold;
+	color: #ffffff;
+	letter-spacing: 1px;
+	border: none;
+}
+input[type="number"]:hover, select[type="month"]:hover, select[type="year"]:hover, input[type="text"]:hover {
+	background: #EEE4A9;
+}
+input[type="submit"]:hover {
+	background: #EEE4A9;
+	color: #25B167;
+}
+a:hover {
+	color: #25B167;
+}
+#cancel-order {
+	display: block;
+	text-align: center;
+}
