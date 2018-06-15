@@ -2,7 +2,7 @@
     $(function () {
        $('.white-slider').slick({
            infinite: true,
-           slidesToShow: 4,
+           slidesToShow: 3,
            slidesToScroll: 1,
            autoplay: true,
            autoplaySpeed: 2000,
@@ -14,7 +14,7 @@
            infinite: true,
            slidesToShow: 1,
            slidesToScroll: 1,
-           dots: true, // не работает а-а-а-а-ф
+           dots: true, 
            autoplay: true,
            autoplaySpeed: 1500,
            slide: "div",
