@@ -22,7 +22,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 1600px;
+  width: 1200px;
+  //min-width: 100vw;
   min-height: 100vh;
   margin: 0 auto;
   background: #fff url("../img/header-bg.png") no-repeat center;
@@ -31,7 +32,7 @@
   text-transform: uppercase;
   h1 {
     margin: 0;
-    font-size: 86px;
+    font-size: 70px;
     text-align: center;
     line-height: 90px;
   }
@@ -44,13 +45,14 @@
     .item {
       position: relative;
       img {
-        width: 430px;
-        height: 400px;
+        width: 80%;
+        height: 80%;
+        margin: 0 40px;
       }
       .item-content {
         position: absolute;
-        left: 0;
-        right: 102px;
+        left: 40px;
+        right: 40px;
         top: 0;
         bottom: 0;
         background: rgba(27,241,173,.8);
@@ -68,7 +70,7 @@
         }
       }
     }
-    a{
+    a{//стрелки
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -79,10 +81,10 @@
         width: 60%;
       }*/
       &.white-left {
-        right: -120px;
+        right: -60px;
       }
       &.white-right {
-        left: -120px;
+        left: -60px;
       }
     }
   }
@@ -97,7 +99,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 1750px;
+    width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
     color: #fff;
@@ -132,7 +134,7 @@
     }
     .black-slider {
       position: relative;
-      height: 600px;
+      height: 70%;
       .black-content {
         display: flex;
         flex-direction: column;
@@ -140,7 +142,7 @@
         align-items: center;
         h1 {
           font-family: 'Playfair Display', serif;
-          font-size: 80px;
+          font-size: 76px;
           text-align: center;
           margin: 0;
         }
@@ -154,6 +156,7 @@
         .black-link {
           display: block;
           width: 184px;
+          margin-bottom: 20px;
           line-height: 52px;
           text-decoration: none;
           text-align: center;
@@ -183,5 +186,12 @@
         left: -50px;
       }
     }
+  }
+  .slick-dots li.slick-active button:before {
+    color: #fff;
+  }
+  .slick-dots li button:before {
+    color: #fff;
+    font-size: 20px;
   }
 }
