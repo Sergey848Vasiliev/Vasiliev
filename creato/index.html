@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creato page</title>
+    <link rel="icon" href="img/creato-favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main-styles.css">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="width: 0;height: 0;position: absolute;">
+    <symbol id="head-logo" width="33" height="33" viewBox="0 0 33 33">
+        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABblBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAACDGmI8AAAAeHRSTlMANnmv0+nw69e1g0Fly9h2CUjlX4mlrgjQhjTys4Sr6F3dcw1h3/pTxxkeV2xeKQWqgCOtvzrxAiL7Ej356mNufhfCctrJwBBVKCSRTaex3k6oEVZ8QME+YM87rFQYH1htKqmBDDWyiHjnh8yKptTmZtkKN3qwtkKBTwqAAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAXRJREFUOMuFVGdXAjEQHDmwgCAiCKLYxQoiIHYUsWJBsWHvimKv+fly5HK5O4/HfNrMTvJ2Z5MAHBUGwWiqrKquMVugh1or4bDV2bX5eiNRw9GgFjjJf7iUgkaiB6u7jIAQDxM0kVIQqMDLmeYWp8HX2saJ9qKiQ853dtE93T2M8oul9LJVXz8wMDgUCALDIUaOFBQeXlY4Uoyio0BEYmNjGJfCiUlMTbOdBbdmpDCOWSmaQ0LRhBeWeYokXNIRdvlgEQsKOxcptYRllRMrqymKBOt1Dev6pm3AQQMz4vqKTaTZGVv6im1eR0aV2AnKdZTvhfmxq/Fjb58iiTDzNIMDPxNkAZPsqTyXQyBFr1L0CDjmc8GJPNtT4Oz8InBZmO0VI6/FStJsFUve0Nqy/H4UH8UtLzB2d58zhx44EaBbHkkpCKxjoYTAw03Rfw55t8K3Jx3Bs+bdvmjyr5p3W8BbXpF/z33o/Q+fX9/i/2H78f0q2D8tzksFBbAkjQAAAABJRU5ErkJggg=="
+               width="33" height="33"/>
+    </symbol>
+    <symbol id="logo-1" width="115" height="84" viewBox="0 0 115 84">
+        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABUCAMAAACGNPhaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC91BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAYYF9qAAAA+3RSTlMADFSm0tWvYxUTd9796IwdD2na/umSV1WE530W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"
+               width="115" height="84"/>
+    </symbol>
+    <symbol id="logo-2" width="99" height="65" viewBox="0 0 99 65">
+        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABBCAMAAADygeqaAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAD5pkqOAAAA6HRSTlMAARMpDwkuLAMiIEGKRgQeahUqHRc4HwIFdwpRom0SKIRLM2VfYEAcRBSVBwh6k0mFaxmAOYKbO0deDHA/sIGjPk+mbhEtN8aJIWGzVFx7TSaWjxhskBtb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"
+               width="99" height="65"/>
+    </symbol>
+</svg>
+<section class="header-section">
+    <section class="inner-section">
+        <div class="header-top">
+            <a href="javascript:void(0);" class="header-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+                    <use xlink:href="#head-logo"></use>
+                </svg>
+            </a>
+            <ul class="header-nav">
+                <li>
+                    <a href="javascript:void(0);">Welcome</a>
+                </li>
+                <li>
+                    <a href="#about" id="about-btn">About</a>
+                </li>
+                <li>
+                    <a href="#services" id="services-btn">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" id="portfolio-btn">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#testimonial" id="testimonial-btn">Testimonial</a>
+                </li>
+                <li>
+                    <a href="#contact" id="contact-btn">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-content">
+            <div class="item">
+                <img src="img/header-image.jpg" alt="Hero">
+                <div class="item-content">
+                    <div class="item-text-wrap">
+                        <a href="javascript:void(0);">
+                            <img src="img/video-icon.png" alt="Video-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Creativity
+                    <br>
+                    comes first
+                </h1>
+                <p>Thinking about overseas adventure travel? Have you put any thought into the best places to go when it comes.</p>
+                <a href="javascript:void(0);" class="read-more">
+                    <span>Discover more</span>
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</section>
+<section class="about" id="about">
+    <section class="inner-section">
+        <div class="about-content">
+            <div>
+                <p>
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    <br>
+                    consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et et
+                    <br>
+                    iusto odio dignissim qui blandit praesent luptatum zzril delenit
+                    <br>
+                    duis dolore te feugait nulla facilisi.
+                </p>
+                <a href="javascript:void(0);" class="read-more">
+                    <span>Read more</span>
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <img src="img/image-2.jpg" alt="Image-section-2">
+        </div>
+    </section>
+</section>
+<section class="services" id="services">
+    <section class="inner-section">
+        <div class="services-content">
+            <div>
+                <img src="img/view.png" alt="View">
+                <h3>Creative</h3>
+            </div>
+            <p>Mirum est notare quam littera gothica
+                <br>
+                nunc putamus parum claram.
+            </p>
+            <a href="javascript:void(0);" class="read-more">
+                <span>Learn more</span>
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+        </div>
+        <div class="services-content">
+            <div>
+                <img src="img/photo.png" alt="View">
+                <h3>Professional</h3>
+            </div>
+            <p>Claritas est etiam processus dynamicus
+                <br>
+                sequitur mutationem consuetudium
+            </p>
+            <a href="javascript:void(0);" class="read-more">
+                <span>Learn more</span>
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+        </div>
+        <div class="services-content">
+            <div>
+                <img src="img/money.png" alt="View">
+                <h3>Money Saving</h3>
+            </div>
+            <p>Nam liber tempor cum soluta nobis eleifend
+                <br>
+                option congue nihil imperdiet doming.
+            </p>
+            <a href="javascript:void(0);" class="read-more">
+                <span>Learn more</span>
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+        </div>
+    </section>
+</section>
+<section class="portfolio" id="portfolio">
+    <section class="inner-section">
+        <ul class="portfolio-menu">
+            <li>
+                <a href="javascript:void(0);">All</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Abstract</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Weeding</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Product</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Landscape</a>
+            </li>
+        </ul>
+    </section>
+    <div class="row">
+        <div>
+            <img src="img/image-3-1.jpg" alt="Image-3-1">
+            <img src="img/image-3-4.jpg" alt="Image-3-4">
+        </div>
+        <div>
+            <img src="img/image-3-2.jpg" alt="Image-3-2">
+            <img src="img/image-3-6.jpg" alt="Image-3-6">
+
+        </div>
+        <div>
+            <img src="img/image-3-3.jpg" alt="Image-3-3">
+            <img src="img/image-3-5.jpg" alt="Image-3-5">
+        </div>
+    </div>
+</section>
+<section class="testimonial" id="testimonial">
+    <section class="inner-section">
+        <div class="slider">
+            <div class="slider-content">
+                <div>
+                    <img src="img/image-4.jpg" alt="Item-4">
+                </div>
+                <div class="slider-text">
+                    <p>
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        blandit praesent zzril delenit augue duis dolore te feugait nulla facilisi.
+                    </p>
+                    <a href="javascript:void(0);" class="read-more">
+                        David Ramon
+                    </a>
+                </div>
+            </div>
+            <div class="slider-content">
+                <div>
+                    <img src="img/image-2.jpg" alt="Item-4">
+                </div>
+                <div class="slider-text">
+                    <p>
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                        consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et et iusto odio dignissim
+                        qui blandit praesent luptatum zzril delenit
+                        duis dolore te feugait nulla facilisi.
+                    </p>
+                    <a href="javascript:void(0);" class="read-more">
+                        Ramon David
+                    </a>
+                </div>
+            </div>
+
+            <!-- свои стрелки -->
+            <a href="javascript:void(0);" class="left">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <a href="javascript:void(0);" class="right">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </section>
+</section>
+<section class="logo-section">
+    <section class="inner-section">
+        <div>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="115" height="84" viewBox="0 0 115 84">
+                    <use xlink:href="#logo-1"></use>
+                </svg>
+            </a>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="99" height="65" viewBox="0 0 99 65">
+                    <use xlink:href="#logo-2"></use>
+                </svg>
+            </a>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="115" height="84" viewBox="0 0 115 84">
+                    <use xlink:href="#logo-1"></use>
+                </svg>
+            </a>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="99" height="65" viewBox="0 0 99 65">
+                    <use xlink:href="#logo-2"></use>
+                </svg>
+            </a>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="115" height="84" viewBox="0 0 115 84">
+                    <use xlink:href="#logo-1"></use>
+                </svg>
+            </a>
+            <a href="javascript:void(0);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="99" height="65" viewBox="0 0 99 65">
+                    <use xlink:href="#logo-2"></use>
+                </svg>
+            </a>
+
+        </div>
+    </section>
+</section>
+<section class="footer" id="contact">
+    <section class="inner-section">
+        <div class="footer-top">
+            <div class="address">
+                <span class="part">Email</span>
+                <br>
+                <span class="value">username@mail.com</span>
+                <br>
+                <span class="part">Phone</span>
+                <br>
+                <span class="value">+000-111-2222</span>
+                <br>
+                <span class="value">+000-112-2322</span>
+                <br>
+                <span class="part">Address</span>
+                <br>
+                <span class="value">27, Red view street,</span><br>
+                <span class="value">NY, USA</span>
+            </div>
+            <form action="javascript:void(0);" method="post">
+                <h2>Get in touch</h2>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email address">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">
+                    Send now
+                <i class="fas fa-long-arrow-alt-right"></i>
+                </button>
+
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2016, All Rights Reserved</p>
+            <ul>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fas fa-futbol"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <a href="javascript:void(0);" class="scroll-up">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+</section>
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--<script src="js/masonry.pkgd.min.js"></script>-->
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
