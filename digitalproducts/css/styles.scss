@@ -539,7 +539,7 @@ body {
         bottom: -40px;
       }
       .arr-left-sm {
-        left: 45%;
+        left: 47%;
         &:hover {
           svg {
             fill: #a48d72;
@@ -547,7 +547,7 @@ body {
         }
       }
       .arr-right-sm {
-        left: 55%;
+        left: 53%;
         &:hover {
           svg {
             fill: #a48d72;
@@ -645,11 +645,17 @@ footer {
         list-style: none;
         &:after {
           position: absolute;
-          content: '|';
+          content: '';
+          width: 1px;
+          height: 20px;
+          background: #555;
           display: block;
           bottom: 50%;
           transform: translateY(50%);
           right: -12px;
+          @media screen and (max-width: 497px) {
+            height: 40px;
+          }
         }
         &:last-child:after {
           display: none;

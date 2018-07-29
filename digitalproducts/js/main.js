@@ -19,7 +19,21 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 4000,
-            slide: "div",
+            responsive: [
+                {
+                    breakpoint: 960,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 540,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ],
+                slide: "div",
             dots: false,
             prevArrow: ".arr-left-sm",
             nextArrow: ".arr-right-sm"

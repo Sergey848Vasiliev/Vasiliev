@@ -413,11 +413,11 @@ body {
     position: absolute;
     bottom: -40px; }
   .section-8 .row .post-slider .arr-left-sm {
-    left: 45%; }
+    left: 47%; }
     .section-8 .row .post-slider .arr-left-sm:hover svg {
       fill: #a48d72; }
   .section-8 .row .post-slider .arr-right-sm {
-    left: 55%; }
+    left: 53%; }
     .section-8 .row .post-slider .arr-right-sm:hover svg {
       fill: #a48d72; }
 
@@ -485,11 +485,17 @@ footer {
         list-style: none; }
         footer .row ul li:after {
           position: absolute;
-          content: '|';
+          content: '';
+          width: 1px;
+          height: 20px;
+          background: #555;
           display: block;
           bottom: 50%;
           transform: translateY(50%);
           right: -12px; }
+          @media screen and (max-width: 497px) {
+            footer .row ul li:after {
+              height: 40px; } }
         footer .row ul li:last-child:after {
           display: none; }
         footer .row ul li a {
