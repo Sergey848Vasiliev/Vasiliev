@@ -443,6 +443,8 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     color: #fff; }
+    .section-10 .row .navbar-brand:hover {
+      transform: scale(1.02); }
   .section-10 .row .read-more {
     color: #d1d1d1; }
     .section-10 .row .read-more:hover {

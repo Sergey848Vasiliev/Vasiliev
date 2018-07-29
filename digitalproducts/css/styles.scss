@@ -581,19 +581,18 @@ body {
     .navbar-brand {
       display: flex;
       align-items: center;
-      //justify-content: center;
       margin-bottom: 10px;
       font-family: 'Raleway', sans-serif;
       font-size: 34px;
       color: #fff;
+      &:hover {
+        transform: scale(1.02);
+      }
     }
     .read-more {
       color: #d1d1d1;
       &:hover {
         color: #00bff3;
-        //&:after {
-        //  border-left-color: #00bff3;
-        //}
       }
     }
 
