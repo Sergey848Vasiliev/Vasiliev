@@ -70,7 +70,7 @@ body {
       opacity: 0.7;
     }
   }
-  svg #bars {
+  .navbar-toggler svg {
     fill: #2ea260;
   }
 }
@@ -114,11 +114,11 @@ header {
       content: '';
       display: block;
       position: absolute;
-      top: 36px;
-      right: 770px;
+      top: 35px;
+      right: 768px;
       width: 20px;
       height: 48px;
-      border: 29px solid transparent;
+      border: 30px solid transparent;
       border-right-color: #2ea260;
       @media screen and (max-width: 1200px) {
         display: none;
