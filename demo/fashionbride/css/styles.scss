@@ -5,20 +5,38 @@ body {
   h2 {
     position: relative;
     margin-bottom: 40px;
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100px;
-      height: 2px;
-      background: pink;
-      top: -10px;
-      right: 50%;
-      transform: translateX(50%);
+    display: inline-block;
+    color: pink;
+    font-weight: bold;
+    @media screen and (min-width: 576px) {
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background: pink;
+        bottom: 10px;
+        left: -110px;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background: pink;
+        bottom: 10px;
+        right: -110px;
+      }
     }
   }
   .card {
     box-shadow: 0 0 20px black;
+    &:hover {
+      box-shadow: 0 0 20px pink;
+      transition: box-shadow 0.5s;
+    }
     .item {
       position: relative;
       img {
@@ -46,6 +64,21 @@ body {
       &:hover .card {
         box-shadow: 0 0 20px pink;
       }
+    }
+  }
+  .scroll-up {
+    display: none;
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background: url("../img/arrow-up.png") no-repeat center;
+    background-size: contain;
+    &:hover {
+      opacity: 0.7;
     }
   }
 }
@@ -105,15 +138,11 @@ header {
 
 
 /*----wedding-dresses---------*/
-.wedding-dresses {
-  //background: url('../img/bg/bg-1.jpg');
-}
+
 
 /*----evening-dresses-----------*/
 
-.evening-dresses {
-  //background: url('../img/bg/bg-1.jpg');
-}
+
 
 /*------section-brand------*/
 
