@@ -78,13 +78,15 @@ header {
       width: 100%;
       z-index: 10; }
       header .carousel .main-nav-wrap .bg-transparent {
-        background: rgba(255, 255, 255, 0.5) !important; }
+        background: rgba(255, 255, 255, 0.7) !important; }
       header .carousel .main-nav-wrap .navbar-light .navbar-nav .nav-link {
         color: #000; }
       header .carousel .main-nav-wrap .nav-item {
         margin-right: 20px; }
         header .carousel .main-nav-wrap .nav-item a {
           font-size: 20px; }
+      header .carousel .main-nav-wrap .navbar-brand {
+        margin-right: 4rem; }
     header .carousel .bg-slide-1 {
       min-height: 100vh;
       background: url("../img/header-slide-img-1.jpg") no-repeat top left;

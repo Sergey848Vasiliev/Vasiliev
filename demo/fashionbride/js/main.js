@@ -32,7 +32,7 @@
          });*/
 
         /*-----------плавный скролл----------------*/
-        $("#btn-wedding-dresses, #btn-evening-dresses, #btn-wedding-veils, #btn-belt, #btn-decorations").on("click", function (e) {
+        $("#btn-wedding-dresses, #btn-evening-dresses, #btn-wedding-veils, #btn-belts, #btn-decorations, #btn-garters, #btn-mantlets, #btn-bolero, #btn-shoes, #btn-gloves, #btn-corsets, #btn-welcome").on("click", function (e) {
             let anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top

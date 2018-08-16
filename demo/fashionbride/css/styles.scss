@@ -94,7 +94,7 @@ header {
       width: 100%;
       z-index: 10;
       .bg-transparent {
-        background: rgba(255, 255, 255, .5) !important;
+        background: rgba(255, 255, 255, .7) !important;
       }
       .navbar-light .navbar-nav .nav-link {
         color: #000;
@@ -104,6 +104,9 @@ header {
         a {
           font-size: 20px;
         }
+      }
+      .navbar-brand {
+        margin-right: 4rem;
       }
     }
     .bg-slide-1 {
