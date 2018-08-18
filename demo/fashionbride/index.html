@@ -15,7 +15,6 @@
 
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/styles-2.css">
 
 </head>
 <body>
@@ -78,7 +77,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="btn-action" href="javascript:void(0);">Скидки</a>
+                            <a class="nav-link" id="btn-shares" href="#shares">Акции</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="btn-about-us" href="#about-us">О нас</a>
@@ -87,26 +86,11 @@
                             <a class="nav-link" id="btn-contacts" href="#contacts">Контакты</a>
                         </li>
                     </ul>
+
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Поиск"
-                               aria-label="Search">
+                        <input class="form-control mr-sm-2" type="search" aria-label="Search">
                         <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Поиск</button>
                     </form>
-
-                    <!--<div class="input-group mb-3">
-	                    <input type="text" class="form-control" placeholder="Имя получателя" aria-label="Имя получателя" aria-describedby="basic-addon2">
-	                    <div class="input-group-append">
-	                    	<span class="input-group-text" id="basic-addon2">@example.com</span>
-	                    </div>
-                    </div>-->
-
-                    <!--<div class="input-group mb-3">
-	                    <input type="text" class="form-control" placeholder="Имя получателя" aria-label="Имя получателя" aria-describedby="basic-addon2">
-	                    <div class="input-group-append">
-	                    	<span class="input-group-text" id="basic-addon2">@example.com</span>
-	                    </div>
-                    </div>-->
-
                 </div>
             </nav>
         </div>
@@ -157,11 +141,13 @@
                     <form>
                         <div class="form-group">
                             <label for="formInputName">Имя</label>
-                            <input type="text" class="form-control" id="formInputName" placeholder="Введите ваше имя" required>
+                            <input type="text" class="form-control" id="formInputName" placeholder="Введите ваше имя"
+                                   required>
                         </div>
                         <div class="form-group">
                             <label for="formInputPhone">Телефон</label>
-                            <input type="tel" class="form-control" id="formInputPhone" placeholder="Введите ваш телефон" required>
+                            <input type="tel" class="form-control" id="formInputPhone" placeholder="Введите ваш телефон"
+                                   required>
                         </div>
                         <div class="form-group">
                             <label for="message-text" class="col-form-label">Дополнительная информация:</label>
@@ -177,7 +163,10 @@
     </div>
 
     <div class="welcome">
-        <a href="#feelings" id="btn-welcome">Ознакомится с товаром</a>
+        <a href="#feelings" id="btn-welcome">Ознакомится с товарами</a>
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+                <use xlink:href="#logo"></use>
+            </svg> -->
     </div>
 </header>
 
@@ -1913,26 +1902,97 @@
     </div>
 </section>
 
-<section class="section-brand">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-lg col-sm-6 m-auto pb-3">
-                <img src="img/brand-1.png" alt="brand-1">
+<section class="pb-5" id="shares">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <h2>АКЦИОННЫЕ ТОВАРЫ</h2>
             </div>
-            <div class="col-lg col-sm-6 m-auto pb-3">
-                <img src="img/brand-2.png" alt="brand-2">
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/dresses/wedding/w-dress-3.jpg" alt="Item-3">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-15%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg col-sm-6 m-auto pb-3">
-                <img src="img/brand-3.png" alt="brand-3">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/dresses/wedding/w-dress-4.jpg" alt="Item-4">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-45%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg col-sm-6 m-auto pb-3">
-                <img src="img/brand-4.png" alt="brand-4">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/corsets/corset-2.jpg" alt="Item-2">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-17%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/gloves/gloves-1.jpg" alt="Item-1">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-35%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/shoes/shoes-2.jpg" alt="Item-2">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                <div class="card">
+                    <div class="item">
+                        <img class="card-img-top img-fluid" src="img/shoes/shoes-3.jpg" alt="Item-3">
+                        <div class="item-content text-center">
+                            <a class="read-more" href="javascript:void(0);">EDINBURG</a>
+                        </div>
+                        <div class="shares-value">
+                            <span>-50%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="my-5" id="about-us">
+<section class="pb-5" id="about-us">
     <div class="container">
         <div class="row text-center">
             <div class="col">
@@ -1941,7 +2001,9 @@
         </div>
         <div class="row">
             <div class="col-md-5">
-                <img class="img-fluid" src="img/looks/look-2.jpg">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bmnHBLTnx60?list=PLJBFx2xjUauhwdim9AwFeV-Nzg_gEIv3o" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-7 m-auto">
                 <p>
@@ -1961,32 +2023,52 @@
     </div>
 </section>
 
-<section class="form-map" id="contacts">
+<section class="pb-5" id="section-brand">
     <div class="container">
         <div class="row">
-            <div class="col">
-                карта + форма
-                <div id="map">
-                    <div id="info-window">
-                        <h4>-Fashionbride-</h4>
-                        <img src="img/" alt="fashionbride">
-                        <p>Добро пожаловать:)</p>
-                    </div>
-                </div>
-                <form action="" method="post">
-
-                </form>
+            <div class="col text-center">
+                <h2>Наши портнеры</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg col-sm-6 m-auto pb-3">
+                <img class="img-fluid" src="img/brands/brand-1.gif" alt="brand-1">
+            </div>
+            <div class="col-lg col-sm-6 m-auto pb-3">
+                <img class="img-fluid" src="img/brands/brand-2.png" alt="brand-2">
+            </div>
+            <div class="col-lg col-sm-6 m-auto pb-3">
+                <img class="img-fluid" src="img/brands/brand-3.png" alt="brand-3">
+            </div>
+            <div class="col-lg col-sm-6 m-auto pb-3">
+                <img class="img-fluid" src="img/brands/brand-4.png" alt="brand-4">
             </div>
         </div>
     </div>
 </section>
 
-<section id="actions">
-    <div class="container">
+<section id="contacts">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                карусель с акционными товарами
+            <div class="col text-center">
+                <h2>Где мы находимся</h2>
             </div>
+        </div>
+        <div class="row">
+            <div class="col px-0">
+                <div id="map">
+                    <div id="info-window">
+                        <h4>-Fashionbride-</h4>
+                        <img class="img-fluid" src="img/info-window-img.jpg" alt="fashionbride">
+                        <p>Добро пожаловать:)</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col">-->
+            <!--<form action="javascript:void(0);" method="post">-->
+
+            <!--</form>-->
+            <!--</div>-->
         </div>
     </div>
 </section>
@@ -2005,6 +2087,7 @@
 <script src="js/popper.min.js" defer></script>
 <script src="js/bootstrap.min.js" defer></script>
 <script src="js/main.js" defer></script>
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Pqp5jIVZ90oUj6P6zZmx7JrsLEmjayY&callback=initMap" defer></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Pqp5jIVZ90oUj6P6zZmx7JrsLEmjayY&callback=initMap" async
+        defer></script>
 </body>
 </html>
