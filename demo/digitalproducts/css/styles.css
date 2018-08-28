@@ -164,6 +164,8 @@ body {
           font-size: 40px; }
         body header .header-slider p {
           font-size: 14px; } }
+      body header .header-slider .my-btn {
+        margin-bottom: 20px; }
     body header .arr-left, body header .arr-right {
       position: absolute;
       top: 50%; }
